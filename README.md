@@ -41,13 +41,17 @@ Here, I will describe the methodology as it relates to each individual script, w
 
 # Visualization
 *SpotifyAPI*
-- Scatterplots:
-I generated 12 scatter plots to look at the relationships between certain track audio features. The coloration of the scatterplot points is based on the song name, and the point size is delineated by the song length. These plots serve as excellent data exploration and reveal some interesting patterns. For instance, the song 'Matilda' by Harry Styles has very low danceability and energy, which matches my assumption as it is a notoriously tear-jerking song. 
-- Pie Charts: 
-Firstly, I generated 1o unique pie charts, one for each top track, in which the slices consist of the track audio features which have values ranging from 0-1, so the variability can be easily analyzed. These also show some interesting patterns, for instance the song 'Watermelon Sugar' has incredibly high energy, danceability, and valence. 
 
-Secondly, 
-    
+-Scatterplots:
+
+I generated 12 scatter plots to look at the relationships between certain track audio features. The coloration of the scatterplot points is based on the song name, and the point size is delineated by the song length. These plots serve as excellent data exploration and reveal some interesting patterns. For instance, the song 'Matilda' by Harry Styles has very low danceability and energy, which matches my assumption as it is a notoriously tear-jerking song. 
+
+-Pie Charts: 
+
+Firstly, I generated 10 unique pie charts, one for each top track, in which the slices consist of the track audio features which have values ranging from 0-1, so the variability can be easily analyzed. These also show some interesting patterns, for instance the song 'Watermelon Sugar' has incredibly high energy, danceability, and valence. 
+
+Secondly, I created two a pie charts (donut style) of 100 recommended artists and 100 recommended genres based on the user’s favorite artist. Here again, the example is Harry Styles. Both pie charts are sorted by size, so you can easily see which is the most recommended genre and artist. Here, the most recommended genre is 
+
 
 *BillboardHot100*
 -
