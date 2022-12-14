@@ -50,12 +50,21 @@ I generated 12 scatter plots to look at the relationships between certain track 
 
 Firstly, I generated 10 unique pie charts, one for each top track, in which the slices consist of the track audio features which have values ranging from 0-1, so the variability can be easily analyzed. These also show some interesting patterns, for instance the song 'Watermelon Sugar' has incredibly high energy, danceability, and valence. 
 
-Secondly, I created two a pie charts (donut style) of 100 recommended artists and 100 recommended genres based on the user’s favorite artist. Here again, the example is Harry Styles. Both pie charts are sorted by size, so you can easily see which is the most recommended genre and artist. Here, the most recommended genre is 
+Secondly, I created two a pie charts (donut style) of 100 recommended artists and 100 recommended genres based on the user’s favorite artist. Here again, the example is Harry Styles. Both pie charts are sorted by size, so you can easily see which is the most recommended genre and artist. For instance, here the most recommended genre is dance pop.
+
+-Regression:
+
+Lastly, I conducted a multiple linear regression using track audio features ranging between 0-1 as the independent variables and the popularity index for each top song of the artist.
 
 
 *BillboardHot100*
--
+
+-Line Plots:
+Here, I generated two line plots with the scraped dataframe from the Billboard Hot 100 chart of the given artist. The first is a line plot of the songs peak dates over time with how many weeks charted as the value. The second is a line plot of the songs peak dates over time with peak chart position as the value.
 
 *Statista_Data*
--
+
+-Pie Chart:
+Lastly, with the genre information of the artist, here Harry Styles, I plotted the distribution of age ranges which listen to the given genre. The pie slices here represent the percentage of people from the age range. What was found here is that if you are a Harry Styles fan, it's likely that you fall in the 25-34 years of age range based on this 2018 study. This was the largest slice of the pie, with 20-24 years of age being a close second. This pie chart will change depending on the genre of the artist entered into the workflow, and the slice with the largest percentage is singled out to predict the age range of the listener. 
+
 # Future Work
